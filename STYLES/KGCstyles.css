@@ -403,9 +403,32 @@ nav a {
 
     nav,
     nav div {
+       
         flex-direction: column;
         align-items: center;
     }
+
+    div#nav nav#on {
+        display: none;
+    }
+
+    header #menubtn {
+        display: block;
+        padding: 2%;
+    }
+    header div#koung {
+        flex-grow: 1;
+
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    }
+
+    div#nav #dropdowndiv {
+        display: block;
+    }
+    
+
 }
 
 @media (max-width:576px) {}
@@ -551,4 +574,29 @@ button#backtotop:hover {
     96%{
         left: 0%;
     }
+}
+
+
+#menubtn {
+    font-size: 2.5rem;
+    display: none;
+}
+
+#menubtn:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+
+.hidden{
+    display: none;
+}
+
+#dropdowndiv {
+    display: none;
+    width: 100%;
+}
+
+nav#dropdown {
+    width: auto;
 }
