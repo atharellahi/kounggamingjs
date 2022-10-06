@@ -158,7 +158,7 @@ div.one {
     border-color: #b66666;
     border-style: solid;
     border-width: 5px;
-    background-image: url(file:///C:/Users/neeks/Desktop/web%20design/media/pc.jpg);
+    background-image: url(/media/pc.jpg);
     background-size: cover;
     background-position: center;
     border-right-width: 0px;
@@ -171,7 +171,7 @@ div.two {
     border-color: #b66666;
     border-style: solid;
     border-width: 5px;
-    background-image: url(file:///C:/Users/neeks/Desktop/web%20design/media/Untitled-1.png);
+    background-image: url(/media/Untitled-1.png);
     background-size: cover;
     background-position: center;
     background-color: rgb(78, 173, 78);
@@ -180,7 +180,7 @@ div.two {
 }
 
 div.three {
-    background-image: url(file:///C:/Users/neeks/Desktop/web%20design/media/20220404_150316.00_07_22_27.Still001.png);
+    background-image: url(/media/20220404_150316.00_07_22_27.Still001.png);
     background-size: cover;
     background-position: center;
     border-color: #b66666;
