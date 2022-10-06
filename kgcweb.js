@@ -19,3 +19,11 @@ mnubtn.addEventListener('click', () => {
         navdrop.classList.add('hidden');
     }
 })
+
+
+const backtotop = document.querySelector('#backtotop');
+backtotop.addEventListener('click', () => {
+    document.body.scrollIntoView({
+        behavior: "smooth",
+    });
+})
