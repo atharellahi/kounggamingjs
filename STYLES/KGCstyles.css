@@ -1,0 +1,554 @@
+body {
+    color: aliceblue;
+}
+
+main {
+    height: 400px;
+    background-color: #00000b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-collapse: collapse;
+
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    transition: .25s;
+    display: none;
+
+}
+
+
+h2.streamtable {
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+table.streamtable {
+    padding-bottom: 10px;
+}
+
+#streamtable,
+#streamtable h2 {
+    color: white;
+    text-align: center;
+}
+
+div#streamtable {
+    background-color: #00000b;
+    margin-top: 0px;
+}
+
+
+table {
+
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+    border-collapse: collapse;
+}
+
+
+table th,
+table td {
+    margin: 0px;
+    border-color: navajowhite;
+    border-width: 2px;
+    border-style: solid;
+
+
+}
+
+.whatiskgc {
+    background-color: #808080;
+}
+
+div#signupform {
+    text-align: center;
+}
+
+
+
+button {
+    background-color: #dba1a1;
+    border-color: #b66666;
+    border-radius: .2rem;
+    transition: .25s;
+}
+
+header {
+
+    height: 8rem;
+    background-color: #00000b;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input,
+select {
+    color: rgb(145, 145, 202);
+    background-color: white;
+}
+
+h2 {
+    color: white;
+}
+
+#signupform button:hover {
+    color: white;
+    background-color: #a1aadb;
+    border-color: navajowhite;
+    box-shadow: 0 .1rem .2rem 0 navajowhite;
+    font-size: 1rem;
+    border-radius: .4rem;
+    transform: translateY(-.2rem);
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .7;
+    font-weight: 700;
+
+}
+
+h1:hover {
+    text-decoration: underline;
+    font-size: 2.2rem;
+
+}
+
+p.post::first-letter {
+    color: #b66666;
+}
+
+*::selection {
+    background-color: cyan;
+    color: red;
+}
+
+
+div#signupform {
+    color: rgb(255, 255, 255);
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700408317.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #6e3bd6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+
+div.one {
+    border-color: #b66666;
+    border-style: solid;
+    border-width: 5px;
+    background-image: url(file:///C:/Users/neeks/Desktop/web%20design/media/pc.jpg);
+    background-size: cover;
+    background-position: center;
+    border-right-width: 0px;
+    background-color: rgb(207, 101, 101);
+    padding: 10px;
+    flex: 1 1;
+}
+
+div.two {
+    border-color: #b66666;
+    border-style: solid;
+    border-width: 5px;
+    background-image: url(file:///C:/Users/neeks/Desktop/web%20design/media/Untitled-1.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(78, 173, 78);
+    padding: 10px;
+    flex: 1 1;
+}
+
+div.three {
+    background-image: url(file:///C:/Users/neeks/Desktop/web%20design/media/20220404_150316.00_07_22_27.Still001.png);
+    background-size: cover;
+    background-position: center;
+    border-color: #b66666;
+    border-style: solid;
+    border-width: 5px;
+    border-left-width: 0px;
+    background-color: rgb(88, 88, 172);
+    padding: 10px;
+    flex: 1 1;
+}
+
+
+div.class {
+    text-align: center;
+}
+
+
+
+div.footer {
+    padding: 1rem 2rem;
+    flex: 1 1 150px;
+
+
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #00000b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header div.header {
+    text-align: right;
+}
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+div#copyright {
+    color: white;
+    background-color: #00000b;
+    font-size: small;
+    font-weight: 200;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div#copyright a {
+    color: white;
+    margin-left: 10px;
+}
+
+.topplayer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.youtube-main {
+    background-color: #00000b;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.youtube-player {
+    align-self: center;
+    padding-bottom: 1rem;
+}
+
+.youtube-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.youtube-list div:hover {
+    cursor: pointer;
+}
+
+.topleft:hover {
+    cursor: pointer;
+}
+
+.topright:hover {
+    cursor: pointer;
+}
+
+iframe {
+    border-color: #b66666;
+    width: 800px;
+    height: 450px;
+}
+.thumb {
+    transition: .25s;
+    transition-timing-function: ease-in;
+}
+.thumb:hover {
+transform: scale(1.1);
+}
+div.youtube-list div,
+.topleft,
+.topright {
+    padding: 0px;
+    width: 246px;
+    margin: auto;
+}
+
+div.item img {
+    display: block;
+}
+
+footer a {
+    color: white;
+    font-weight: 200;
+    font-size: medium;
+}
+
+nav {
+    width: 50em;
+    background-color: #00000b;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav div {
+    flex-grow: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: white;
+}
+
+@media (max-width:1375px) {
+
+    .topleft,
+    .topright {
+        display: none;
+    }
+
+    .topplayer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+@media (max-width:1050px) {
+    .itemfour {
+        display: none;
+    }
+
+
+}
+
+@media (max-width:900px) {
+
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+
+    main {
+        height: 800px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div.one,
+    div.two,
+    div.three {
+        flex: 1 1;
+    }
+
+    div.one {
+        border-bottom-width: 0px;
+        border-right-width: 5px;
+    }
+
+    div.three {
+        border-top-width: 0px;
+        border-left-width: 5px;
+    }
+}
+
+@media (max-width:840px) {
+
+    .youtube-list {
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width:768px) {
+
+    nav,
+    nav div {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:576px) {}
+
+div#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #00000b;
+}
+
+
+div#leftside {
+    width: 400px;
+    height: 500px;
+    background-color: #00000b;
+    background-image: url(https://images2.alphacoders.com/120/thumb-1920-1204924.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div#rightside {
+    width: 400px;
+    height: 500px;
+    background-color: #00000b;
+    background-image: url(https://wallpaper.dog/large/20498629.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div#mainform {
+    width: 500px;
+    height: 500px;
+    flex: 1 0 500px;
+}
+
+header img {
+    height: 50px;
+}
+
+header img:hover {
+    opacity: .7;
+}
+
+div#backtop {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button#backtotop {
+    color: white;
+    background-color: #00000b;
+    flex: 1 1;
+    border-radius: 0;
+
+}
+
+button#backtotop:hover {
+    color: white;
+    background-color: #020214;
+    border-color: navajowhite;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.slider {
+    overflow: hidden;
+    height: 400px;
+}
+
+.slider figure div {
+    width: 32%;
+    float: left;
+}
+
+/* .slider div {
+    width: 100%;
+    float: left;
+} */
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slide infinite;
+}
+
+
+@keyframes slide {
+    0%{
+        left: 0%;
+    }
+    10%{
+        left: 0%;
+    }
+    12%{
+        left: -100%;
+    }
+    22%{
+        left: -100%;
+    }
+    24%{
+        left: -200%;
+    }
+    34%{
+        left: -200%;
+    }
+    36%{
+        left: -300%;
+    }
+    46%{
+        left: -300%;
+    }
+    48%{
+        left: -400%;
+    }
+    58%{
+        left: -400%;
+    }
+    60%{
+        left: -300%;
+    }
+    70%{
+        left: -300%;
+    }
+    72%{
+        left: -200%;
+    }
+    82%{
+        left: -200%;
+    }
+    84%{
+        left: -100%;
+    }
+    94%{
+        left: -100%;
+    }
+    96%{
+        left: 0%;
+    }
+}
