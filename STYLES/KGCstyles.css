@@ -292,13 +292,16 @@ iframe {
     width: 800px;
     height: 450px;
 }
+
 .thumb {
     transition: .25s;
     transition-timing-function: ease-in;
 }
+
 .thumb:hover {
-transform: scale(1.1);
+    transform: scale(1.1);
 }
+
 div.youtube-list div,
 .topleft,
 .topright {
@@ -403,7 +406,7 @@ nav a {
 
     nav,
     nav div {
-       
+
         flex-direction: column;
         align-items: center;
     }
@@ -416,22 +419,48 @@ nav a {
         display: block;
         padding: 2%;
     }
+
     header div#koung {
         flex-grow: 1;
 
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     div#nav #dropdowndiv {
         display: block;
     }
-    
+
 
 }
 
-@media (max-width:576px) {}
+@media (max-width:570px) {
+    iframe {
+        width: 100%;
+    }
+
+    .youtube-player {
+        width: 100%;
+    }
+
+    #leftside,
+    #rightside {
+        display: none;
+    }
+
+    div#mainform {
+        width: 100% !important;
+        height: auto !important;
+        padding: 0% ;
+        padding-bottom: 10px;
+        flex: auto !important;
+    }
+
+    form {
+        margin: 0%;
+    }
+}
 
 div#nav {
     display: flex;
@@ -463,6 +492,10 @@ div#mainform {
     width: 500px;
     height: 500px;
     flex: 1 0 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header img {
@@ -523,55 +556,71 @@ button#backtotop:hover {
 
 
 @keyframes slide {
-    0%{
+    0% {
         left: 0%;
     }
-    10%{
+
+    10% {
         left: 0%;
     }
-    12%{
+
+    12% {
         left: -100%;
     }
-    22%{
+
+    22% {
         left: -100%;
     }
-    24%{
+
+    24% {
         left: -200%;
     }
-    34%{
+
+    34% {
         left: -200%;
     }
-    36%{
+
+    36% {
         left: -300%;
     }
-    46%{
+
+    46% {
         left: -300%;
     }
-    48%{
+
+    48% {
         left: -400%;
     }
-    58%{
+
+    58% {
         left: -400%;
     }
-    60%{
+
+    60% {
         left: -300%;
     }
-    70%{
+
+    70% {
         left: -300%;
     }
-    72%{
+
+    72% {
         left: -200%;
     }
-    82%{
+
+    82% {
         left: -200%;
     }
-    84%{
+
+    84% {
         left: -100%;
     }
-    94%{
+
+    94% {
         left: -100%;
     }
-    96%{
+
+    96% {
         left: 0%;
     }
 }
@@ -588,7 +637,7 @@ button#backtotop:hover {
 }
 
 
-.hidden{
+.hidden {
     display: none;
 }
 
